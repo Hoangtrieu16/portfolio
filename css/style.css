@@ -178,12 +178,16 @@ p.a {
 
 /* width of container */
 
+/* images */
+.rounded-4.p-5{
+    background-position: center;
+}
 
 /* .container-fluid{
     max-width: 1440px  !important;
 } */
 
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
 
     .col-md-4 {
         flex: 0 0 auto;
@@ -199,20 +203,35 @@ p.a {
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .col-md-4 {
         flex: 0 0 auto;
-        width: 50% !important;
+        width: 100% !important;
     }
+    
+    .experiences .rounded-4.p-5{
+        background-position: center;
+    }
+
+    .education .rounded-4.p-5{
+        background-position: center;
+    }
+
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
     .display-1{
         font-size: 50px;
     }
     
-    .rounded-4.p-5{
+    .experiences .rounded-4.p-5{
         padding: 8px !important;
+        background-position: left;
+    }
+
+    .education .rounded-4.p-5{
+        padding: 8px !important;
+        background-position: right;
     }
 }
 
