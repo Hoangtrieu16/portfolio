@@ -100,6 +100,10 @@ body , body  [data-bs-theme=light] {
     background-color: var(--bs-teal) !important;
 }
 
+.banner.rounded-4.p-5{
+    padding: 48px;;
+}
+
 .navbar-nav a.nav-link:hover {
     color: var(--bs-primary) !important;
 }
@@ -182,8 +186,18 @@ p.a {
 
 @media (min-width: 1440px) {
 
+    .display-1{
+        font-size: 120px !important;
+    }
+
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-fluid {
         max-width: 1440px;
+    }
+}
+
+@media (min-width: 375px) {
+    .display-1{
+        font-size: 50px;
     }
 }
 
