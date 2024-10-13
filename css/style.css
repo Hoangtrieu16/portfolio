@@ -168,11 +168,17 @@ p.a {
     color: var(--bs-info);
 }
 
+.list-unstyled li{
+    margin-bottom: 8px;
+}
+
 /* width of container */
 
-.container-fluid{
+/* .container-fluid{
     max-width: 1440px  !important;
-}
+} */
+
+
 
 @media (min-width: 1440px) {
 
