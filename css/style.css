@@ -232,6 +232,11 @@ footer {
     .display-1{
         font-size: 50px;
     }
+
+    .about-me .rounded-4.p-5{
+        padding: 8px !important;
+        background-position: right;
+    }
     
     .experiences .rounded-4.p-5{
         padding: 8px !important;
@@ -331,5 +336,9 @@ a:hover {
 /* display */
 
 .education .row{
+    flex-direction: row-reverse;
+}
+
+.about-me .row{
     flex-direction: row-reverse;
 }
