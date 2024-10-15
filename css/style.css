@@ -183,9 +183,15 @@ p.a {
     background-position: center;
 }
 
-/* .container-fluid{
-    max-width: 1440px  !important;
-} */
+/* images */
+
+.desk{
+    display: block;
+}
+
+.mobile{
+    display:none;
+}
 
 /* footer */
 
@@ -215,7 +221,7 @@ footer {
 @media (max-width: 768px) {
     .col-md-4 {
         flex: 0 0 auto;
-        width: 100% !important;
+        width: 55% !important;
     }
     
     .experiences .rounded-4.p-5{
@@ -231,6 +237,14 @@ footer {
 @media (max-width: 375px) {
     .display-1{
         font-size: 50px;
+    }
+
+    .desk{
+        display: none;
+    }
+
+    .mobile{
+        display:block;
     }
 
     .about-me .rounded-4.p-5{
